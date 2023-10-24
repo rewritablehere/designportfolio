@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Your website description">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Product Designer Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <div id="menu-toggle" class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="flex-container">
+            <p>With a masters degree in Interaction Design, I have been trained to listen and work with users and advocate for them. Usually people do not know what they want and even if they tell you what they want, that is not something they actually find useful and delightful. So this discord in information comes from the way we process information. It is called mental models and each of us have different mental models for everything in our lives. As a User Researcher and Information Designer, I am trained to ask open ended questions and subsequently use methods that will help us discern these latent needs of users. An example is the method of interviewing called the 'Five  Whys'. When you ask something to a user of a product, they tell you what they think you are asking. So you go back to them with a second Why "why do you think so?". This makes them question and re-evaluate what they have told and makes it clear that they are aware of what they are talking about and they fully understand your question. These dissections can continue to the depth of five where in by the time you are asking the fifth 'why' you as a interviewer have clarity on the answers from your user as well as their mental model of it and you will be in a position to take up insights from the discussion as well as drop ambiguous statements. This is one of the methods. There are several which help us understand the contexts of your users. Another power tool is the Contextual Inquiry where we get the user to try out your product in the actual context. You also make them think aloud while they carry out any activity given to them. So that we as designers understand the unsaid contexts that influence their decisions as well as all artefacts and touch-points involved in the usage of the product. There are more tools like this to work with mental models. A-B testing includes providing two solutions which differ by a feature. By making your users test out both the prototypes; A & B, you will be able to see where the experience is seamless, making or breaking. Another method that helps us identify how users see a product is by card sorting. There are two ways it is conducted. The open card sorting allows users to define the hierarchy of steps of using a product if there are multiple steps involved. Similarly the closed card sorting allows users to align their expectations with the steps or hierarchy defined by designers/marketing team.
+            
+            My design expertise extends into the visual aspect of information as well. Principles like Gestalt, progressive disclosure of information, working with heuristics, making sure your users have a consistent experience while using digital product all play into the tool kit of user experience. </p>
+        </section>
+    </main>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Your brief biography and expertise here.</p>
+    </section>
+
+    <!-- Other sections -->
+
+    <footer>
+        <!-- Footer content can be added here -->
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
